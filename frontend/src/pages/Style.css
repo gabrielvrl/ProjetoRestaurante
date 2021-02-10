@@ -1,0 +1,43 @@
+.register-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container form input {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.register-container form input ::placeholder {
+  color: #999;
+}
+
+.register-container form h3 {
+  text-align: center;
+}
+
+.register-container form button {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 4px;
+  height: 48px;
+  font-size: 16px;
+  background: #d4a886;
+  font-weight: bold;
+  color: #111b1e;
+  cursor: pointer;
+}

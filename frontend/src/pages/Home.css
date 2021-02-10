@@ -1,0 +1,45 @@
+.home-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-container form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container form input {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.home-container form input ::placeholder {
+  color: #999;
+}
+
+.home-container form h3,
+h2 {
+  text-align: center;
+}
+
+.home-container form button {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 4px;
+  height: 48px;
+  font-size: 16px;
+  background: #d4a886;
+  font-weight: bold;
+  color: #111b1e;
+  cursor: pointer;
+}
